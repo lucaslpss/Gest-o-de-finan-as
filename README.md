@@ -92,7 +92,7 @@ tasks{
         prazo: '2023-02-28',
         estagio da task: 'Em andamento',
     }
-        {   
+    {   
         id: 2
         nome_task: 'Criar o desenho do app',
         created_data: '2023-02-27',
@@ -102,7 +102,7 @@ tasks{
         prazo: '2023-02-28',
         estagio da task: 'Concluido',
     }
-    {
+}
 ```
 ### listar todas tasks
 
