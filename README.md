@@ -55,7 +55,7 @@ API da aplicação de manageamento de tasks.
 {
     responsavel_task: 'Lucas Lopes',
     prazo: '2023-02-28',
-    estagio da task: 'Em andamento',
+    estagio_task: 'Em andamento',
 }
 ```
 
