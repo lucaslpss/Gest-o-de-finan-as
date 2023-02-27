@@ -8,7 +8,7 @@ API da aplicação de manageamento de tasks.
     - [Cadastrar task](#cadastrar-task)
     - Apagar task
     - [Alterar task](#alterar-task)
-    - [listar task](#listar-task)
+    - [Listar task](#listar-task)
     - [Listar todas as tasks](#listar-todas-tasks)
 
 
