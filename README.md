@@ -7,8 +7,9 @@ API da aplicação de manageamento de tasks.
 - Tasks
     - [Cadastrar task](#cadastrar-task)
     - Apagar task
-    - Alterar task
-    - Listar todas as tasks
+    - [Alterar task](#alterar-task)
+    - [listar task](#listar-task)
+    - [Listar todas as tasks](#listar-todas-tasks)
 
 
 ---
@@ -38,7 +39,7 @@ API da aplicação de manageamento de tasks.
 |201| despesa cadastrada com sucesso
 |400| a validação dos campos falhou
 
-### Editar Task
+### Alterar task
 
 `PATCH` /tasks/api/task
 
@@ -67,7 +68,7 @@ API da aplicação de manageamento de tasks.
 
 ---
 
-### Detalhar task
+### listar task
 
 `GET` /tasks/api/task/{id}
 
@@ -103,7 +104,7 @@ tasks{
     }
     {
 ```
-### Detalhar todas task
+### listar todas tasks
 
 `GET` /tasks/api/task/all
 
