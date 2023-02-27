@@ -47,7 +47,7 @@ API da aplicação de manageamento de tasks.
 |-------|------|:-------------:|----
 | responsavel_task | texto | sim | Nome do responsavel pela task
 | prazo | data | não | um prazo para a finalização da task
-| estagio da task | texto | sim | o estágio atual da task
+| estagio_task | texto | sim | o estágio atual da task
   
   **Exemplo de corpo de requisição**
 
@@ -83,10 +83,10 @@ API da aplicação de manageamento de tasks.
 ```js 
 tasks{
     {   
-        id: 1
+        id: 1,
         nome_task: 'Criar o protótipo dos endpoints no README',
         created_data: '2023-02-27',
-        id_responsavel: 1
+        id_responsavel: 1,
         descricao: 'Criar o protótipo dos endpoints da api de manageamento de tasks no github',
         nome_responsavel: 'Lucas Lopes',
         prazo: '2023-02-28',
@@ -96,7 +96,7 @@ tasks{
         id: 2
         nome_task: 'Criar o desenho do app',
         created_data: '2023-02-27',
-        id_responsavel: 1
+        id_responsavel: 1,
         descricao: 'Criar o desenho das telas do app de manageamento de tasks',
         nome_responsavel: 'Lucas Lopes',
         prazo: '2023-02-28',
@@ -123,6 +123,6 @@ tasks{
     descricao: 'Criar o protótipo dos endpoints da api de manageamento de tasks no github',
     responsavel_task: 'Lucas Lopes',
     prazo: '2023-02-28',
-    estagio da task: 'Em andamento',
+    estagio_task: 'Em andamento',
 }
 ```
