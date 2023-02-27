@@ -90,7 +90,7 @@ tasks{
         descricao: 'Criar o protótipo dos endpoints da api de manageamento de tasks no github',
         nome_responsavel: 'Lucas Lopes',
         prazo: '2023-02-28',
-        estagio da task: 'Em andamento',
+        estagio_task: 'Em andamento',
     }
     {   
         id: 2
@@ -100,7 +100,7 @@ tasks{
         descricao: 'Criar o desenho das telas do app de manageamento de tasks',
         nome_responsavel: 'Lucas Lopes',
         prazo: '2023-02-28',
-        estagio da task: 'Concluido',
+        estagio_task: 'Concluido',
     }
 }
 ```
